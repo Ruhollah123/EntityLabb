@@ -18,6 +18,7 @@ public class Education
     // Navigation property (One-To-Many)
 
 }
+
 public class Courses
 {
     public int Id { get; set; }
