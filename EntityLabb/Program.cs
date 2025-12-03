@@ -1,4 +1,6 @@
-﻿namespace EntityLabb
+﻿using System.Security.Principal;
+
+namespace EntityLabb
 {
     internal class Program
     {
@@ -26,6 +28,13 @@ public class Courses
     public string Description { get; set; }
     public DateTime StartDate { get; set; }
     public DateTime EndDate { get; set; }
-
 }
 
+
+
+public class Students
+{
+    public  int Id { get; set; }
+    public  string FirstName { get; set; }
+    public  string LastName { get; set; }
+}
